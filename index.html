@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="root"></div>
+
+    <script type="text/babel">
+        // const mesaj = "Hello React";
+        // const template = `<h1>${mesaj}</h1>`;
+        // document.getElementById("root").innerHTML = template;
+
+        // Performans => React
+        // Kolay Kullanım => JSX [Javascipt XML]
+
+        // const template = React.createElement("h1", null, "Hello React");
+        const template = <h1>Hello React</h1>;
+        const root = ReactDOM.createRoot(document.getElementById("root"));
+        root.render(template);
+
+        // 1.Yöntem: React Libraries (CDN, NPM) + Tools (Babel)
+        // 2.Yöntem: create-react-app, vite => React, ReactDOM + tools
+        
+    </script>
+
+
+</body>
+</html>
