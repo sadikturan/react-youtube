@@ -1,7 +1,13 @@
-function App() {
-  return (
-    <h1>Hello React</h1>
-  )
-}
+import Navbar from './components/Navbar.jsx';
+import PizzaList from './components/PizzaList.jsx';
 
-export default App
+export default function App() {
+    return (
+      <>
+        <Navbar />
+        <div className='container'>
+          <PizzaList />
+        </div>
+      </>
+    )
+  }
