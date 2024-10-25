@@ -1,7 +1,7 @@
 export const pizzas = [
     {
       title: "Sucuklu Pizza",
-      description: "Süper nefis pizza",
+      description: "Süper nefis pizza Süper nefis pizza Süper nefis pizza Süper nefis pizza",
       image: "pizza1.jpg",
       price: 200,
       is_active: true
